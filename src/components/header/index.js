@@ -7,7 +7,7 @@ const Header = () => {
         <header className="header">
             <div>
                 <h1 className="logo">
-                    Poll
+                    Lynnete's Polls
                 </h1>
             </div>
             <div>

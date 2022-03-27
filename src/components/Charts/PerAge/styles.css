@@ -1,0 +1,39 @@
+.chart-pa-table {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.chart-pa-table th {
+    text-align: center;
+    padding: 8px 16px;
+}
+
+.chart-pa-table td {
+    text-align: center;
+    padding: 8px 16px;
+    border: 0px;
+    border-bottom: 1px solid #b8c6de;
+    
+}
+
+.chart-pa-table tr:hover{
+    background-color: #b8c6de;
+}
+
+.chart-pa-table thead {
+    background-color: #0a5a94;
+    color: #fff;
+}
+
+.chart-pa-table tbody tr {
+    cursor: default;
+    
+}
+
+td.title {
+    text-align: left;
+    font-weight: 700;
+    text-transform: capitalize;
+}

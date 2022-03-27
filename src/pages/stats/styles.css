@@ -9,3 +9,10 @@
     display: flex;
     justify-content: center;
 }
+
+.stats-page-row {
+    display: flex;
+    align-items: stretch;
+    gap: 16px;
+    margin-bottom: 16px;
+}

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import  PollPage from './pages/poll'
-import Stats from './components/Stats'
 import './styles/index.css'
 import Header from './components/Header'
 import Footer from './components/Footer'

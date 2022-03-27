@@ -1,0 +1,35 @@
+.chart-fav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chart-fav-list li {
+    margin-bottom: 8px;
+}
+
+.chart-fav-place {
+    margin-right: 8px;
+    font-size: 32px;
+
+}
+
+.chart-fav-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.boldest {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.bolder {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bold {
+    font-size: 18px;
+    font-weight: 600;
+}
