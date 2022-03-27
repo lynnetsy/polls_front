@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import  PollPage from './pages/poll'
+import Stats from './components/Stats'
+import './styles/index.css'
+import Header from './components/header'
+import Footer from './components/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path='/' element={<PollPage />}/>
+        <Route path='/stats' element={<Stats />}/>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

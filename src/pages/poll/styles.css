@@ -1,0 +1,6 @@
+.poll-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
