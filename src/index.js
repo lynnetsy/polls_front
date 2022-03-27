@@ -5,8 +5,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import  PollPage from './pages/poll'
 import Stats from './components/Stats'
 import './styles/index.css'
-import Header from './components/header'
+import Header from './components/Header'
 import Footer from './components/Footer'
+import StatsPage from './pages/stats'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +15,7 @@ ReactDOM.render(
       <Header />
       <Routes>
         <Route path='/' element={<PollPage />}/>
-        <Route path='/stats' element={<Stats />}/>
+        <Route path='/stats' element={<StatsPage />}/>
       </Routes>
       <Footer />
     </BrowserRouter>

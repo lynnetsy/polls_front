@@ -1,0 +1,11 @@
+.stats-page-container {
+    padding: 16px;
+    width: 100%;
+    max-width: 1080px;
+    box-sizing: border-box;
+}
+
+.stats-page {
+    display: flex;
+    justify-content: center;
+}

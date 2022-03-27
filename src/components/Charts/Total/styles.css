@@ -1,0 +1,14 @@
+.chart-total-title {
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.chart-total-label {
+    font-size: 64px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    font-family: monospace;
+}
