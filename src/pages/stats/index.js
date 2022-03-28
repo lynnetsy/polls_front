@@ -9,7 +9,7 @@ import ChartPerAge from "../../components/Charts/PerAge"
 const StatsPage = () => {
     const [ stats, setStats ] = useState(null)
     useEffect(async () => {
-        const { data } = await axios.get("http://localhost:8080/api/v1/polls/stats")
+        const { data } = await axios.get("https://pollsback.lynidev.com/api/v1/polls/stats")
         setStats(data)
     }, [])
     return (

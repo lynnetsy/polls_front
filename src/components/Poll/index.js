@@ -58,7 +58,7 @@ const Poll = () => {
             }}
             onSubmit={async (values, { setSubmitting }) => {
                 try {
-                    const response = await axios.post("http://localhost:8080/api/v1/polls", values)
+                    const response = await axios.post("https://pollsback.lynidev.com/api/v1/polls", values)
                     setErrors(false)
                     if (response.status == 204) {
                         navigate('/stats')
