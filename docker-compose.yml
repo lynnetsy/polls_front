@@ -3,6 +3,6 @@ version: '3.8'
 services:
   polls_front:
     container_name: polls_front
-    image: lynnete/polls_front:1.0.0
+    build: .
     ports:
       - 8080:80
